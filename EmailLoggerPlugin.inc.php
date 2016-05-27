@@ -267,7 +267,7 @@ class EmailLoggerPlugin extends GenericPlugin {
 		if (is_string($recipients)) {
 			// Email and user name are mixed in string.
 			import('lib.pkp.classes.mail.MailTemplate');
-			$mail = new Mail();
+			$mail = new MailTemplate();
 			$recipientsList = array();
 			$recipients = array($recipients);
 			$recipients = $mail->processAddresses($recipientsList, $recipients);
