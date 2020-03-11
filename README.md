@@ -19,7 +19,7 @@ Works with OMP 1.1. It can easily work with the other pkp systems if method exis
 
 Installation
 ------------
-- Copy the plugin contents in the plugins/generic folder
+- Copy the plugin contents in the `plugins/generic` folder
 - Run the upgrade tool so the plugin version can be installed.
 
 Configuration
